@@ -13,10 +13,10 @@ for i in range(c, d):
 print(d, end="\n")
 
 for i in range(a, b):
+    print(i, end="\t")
     for j in range(c, d):
-        print(i, end="\t"),
-        print(i * j, end='\t'),
-        print(i * d, end='\t')
+        print(i * j, end='\t')
+    print(i * d, end='\t')
     print('', end='\n')
 
 print(b, end="\t")
